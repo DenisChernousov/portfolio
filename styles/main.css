@@ -14,7 +14,7 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
   scroll-behavior: smooth;
-
+font-size: 10px;
 }
 
 /* Sections
@@ -391,15 +391,15 @@ body {
   line-height: 1.55;
 }
 .container{
-    max-width: 1100px;
+    max-width: 110rem;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 0.5rem;
   }
 
 .nav {
   position: absolute;
-  top: 14px;
-  margin-top: 15px;
+  top: 1.4rem;
+  margin-top: 1.5rem;
   left: 40%;
   right: auto;
   display: flex;
@@ -409,8 +409,8 @@ body {
 }
 
 .nav__logo {
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 .nav__item{
   color: #000;
@@ -436,7 +436,7 @@ body {
 .nav__logo-subtitle {
   font-family: "Comfortaa", sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-size: calc(var(--index) * 0.7);
   line-height: calc(var(--index) / 1.8);
   color: #000000;
@@ -486,7 +486,7 @@ body {
   transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
  
   will-change: transform;
-  text-shadow: 0 0 15px rgb(247, 246, 213);
+  text-shadow: 0 0 1.5rem rgb(247, 246, 213);
   line-height: 0.8;
   color: #fff;
 }
@@ -537,7 +537,7 @@ body {
 .portfolio__title{
   min-width: 100vh;
     font-size: calc(var(--index) * 0.7);
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .portfolio__gallery{
   display: flex;
@@ -549,9 +549,9 @@ body {
 }
 .portfolio__img{
   width: 25vw;
-margin-bottom: 50px;
-margin-right: 50px;
-margin-left: 50px;
+margin-bottom: 5rem;
+margin-right: 5rem;
+margin-left: 5rem;
 object-fit: cover;
   cursor: pointer;
 
@@ -568,5 +568,5 @@ object-fit: cover;
   font-size: calc(var(--index) * 0.7);
 }
 .footer__author{
-  margin-left: 8px;
+  margin-left: 0.8rem;
 }
