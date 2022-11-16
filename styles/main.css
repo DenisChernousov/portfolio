@@ -404,6 +404,7 @@ body {
   right: auto;
   display: flex;
   align-items: center;
+  
   z-index: 13;
     text-decoration:none;
 }
@@ -411,11 +412,12 @@ body {
 .nav__logo {
   margin-right: 5rem;
   margin-left: 5rem;
+
 }
 .nav__item{
   color: #000;
     text-decoration: none;
-    
+    font-size: 1.5rem;
 }
 .nav__item:hover {
   color: #205649;
@@ -427,18 +429,19 @@ body {
 .nav__logo-title {
   font-family: "Comfortaa", sans-serif;
   font-weight: 600;
-  font-size: calc(var(--index) * 0.5);
-  line-height: calc(var(--index) / 1.8);
+  font-size: calc(var(--index) * 1.2);
+  line-height: calc(var(--index) / 1);
   color: #205649;
   text-transform: uppercase;
+
 }
 
 .nav__logo-subtitle {
   font-family: "Comfortaa", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
-  font-size: calc(var(--index) * 0.7);
-  line-height: calc(var(--index) / 1.8);
+  font-size: calc(var(--index) * 0.9);
+  line-height: calc(var(--index) / 1.4);
   color: #000000;
   text-transform: uppercase;
 }
@@ -519,14 +522,15 @@ body {
 }
 .main-article__content p{
   width: 30vw;
+  font-size: 1.6rem;
 }
 .main-article__header{
     min-width: 100vh;
-    font-size: calc(var(--index) * 0.7);
+    font-size: calc(var(--index) * 0.9);
 }
 
-.main-article__icon{
-  font-size: calc(var(--index) * 1.5);
+.main-article__icon i{
+  font-size: 2.8rem;
     line-height: calc(var(--index) / 1.8);
     color: #000;
  }
@@ -536,8 +540,9 @@ body {
 }
 .portfolio__title{
   min-width: 100vh;
-    font-size: calc(var(--index) * 0.7);
+    font-size: calc(var(--index) * 0.9);
     margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 .portfolio__gallery{
   display: flex;
@@ -546,6 +551,7 @@ body {
 }
 .portfolio__item{
   display: flex;
+  font-size: 1.6rem;
 }
 .portfolio__img{
   width: 25vw;
